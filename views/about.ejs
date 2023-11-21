@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Lego Collection</title>
+</head>
+<body>
+    <%- include('partials/navbar', {page: '/about'}) %>
+
+    <div class="container mx-auto p-4">
+
+      <!-- Hero Section -->
+      <div class="hero bg-base-200 rounded-lg p-6">
+        <div class="text-center hero-content">
+          <div class="max-w-md">
+            <h1 class="text-4xl font-bold">About</h1>
+            <p class="text-lg mt-4">Everything you want to know about me - the designer & developer.</p>
+          </div>
+        </div>
+      </div>
+
+    <br>
+    <!-- About Content -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Left Column: Image -->
+        <div>
+          <img class="w-full rounded-lg" src="https://cdn.pixabay.com/photo/2023/10/20/13/49/beach-8329531_1280.jpg" alt="profile">
+        </div>
+        <!-- Right Column: Blurb -->
+        <div class="prose">
+            <p> Hello, I'm Kenil Monpara. My enthusiasm for Lego has been a constant source of joy, and I've been avidly collecting Lego sets for many years. 
+              Beyond my Lego passion, I find fulfillment in the world of coding and continuously expanding my knowledge of emerging technologies. 
+              Currently immersed in web development courses, I'm also delving into various programming languages to enhance my skills and stay at the forefront of the ever-evolving tech landscape. 
+              I believe in the power of creativity and innovation, both in the world of Lego and the realm of coding</p>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
